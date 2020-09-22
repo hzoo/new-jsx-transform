@@ -1,5 +1,7 @@
 # new-jsx-transform
 
+![image](https://user-images.githubusercontent.com/588473/93935506-b9571a80-fcf2-11ea-92f9-7f88da93d5cf.png)
+
 - React 17 blogpost:
 - React JSX Transform blogpost: https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html
 - React JSX RFC: https://github.com/reactjs/rfcs/pull/107
