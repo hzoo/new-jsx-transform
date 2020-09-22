@@ -5,7 +5,7 @@ import { App } from "./components/App";
 const INPUT = [
   [
     `// runtime "automatic" adds imports, will be default in Babel 8
-// importSource defaults to react
+// importSource defaults to "react"
 
 <div></div>;
 <h1>hi</h1>;
@@ -31,7 +31,7 @@ const profile = (
   [
     `import React from "react";
 // runtime "classic" is default in Babel 7
-// pragma defaults to React.createElement
+// pragma defaults to "React.createElement"
 
 <div></div>;
 <h1>hi</h1>;
