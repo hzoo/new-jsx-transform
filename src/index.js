@@ -50,6 +50,7 @@ const profile = (
             runtime: "classic",
             pragma: "React.createElement",
             pragmaFrag: "React.Fragment",
+            useSpread: true, // false by default
           },
         ],
       ],
