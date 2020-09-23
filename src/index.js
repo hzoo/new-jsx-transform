@@ -4,12 +4,17 @@ import { App } from "./components/App";
 
 const INPUT = [
   [
-    `// runtime "automatic" adds imports, will be default in Babel 8
+    `// change the code here!!
+// runtime "automatic" adds imports, will be default in Babel 8
 // importSource defaults to "react"
 
 <div></div>;
 <h1>hi</h1>;
+<Component/>;
 <Component {...props} />;
+<Component {...props} prop="a"/>;
+<Component prop="a" key="b" />;
+
 const profile = (
   <>
     <img src="avatar.png" className="profile" />
@@ -23,19 +28,25 @@ const profile = (
           {
             runtime: "automatic", // "runtime" | "classic"
             importSource: "react", // default to "react"
+            development: false, // default to false
           },
         ],
       ],
     },
   ],
   [
-    `import React from "react";
+    `// change the code here as well!!
+import React from "react";
 // runtime "classic" is default in Babel 7
 // pragma defaults to "React.createElement"
 
 <div></div>;
 <h1>hi</h1>;
+<Component/>;
 <Component {...props} />;
+<Component {...props} prop="a"/>;
+<Component prop="a" key="b" />;
+
 const profile = (
   <>
     <img src="avatar.png" className="profile" />
@@ -50,7 +61,8 @@ const profile = (
             runtime: "classic",
             pragma: "React.createElement",
             pragmaFrag: "React.Fragment",
-            useSpread: true, // false by default
+            development: false, // default to false
+            useSpread: true, // default to false
           },
         ],
       ],

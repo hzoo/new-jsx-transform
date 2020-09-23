@@ -109,9 +109,12 @@ export const App = ({ defaultSource, defaultInput, defCustomPlugin }) => {
             <a href="https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html">
               Blog post
             </a>
-            , <a href="https://github.com/reactjs/rfcs/pull/107">RFC</a>,{" "}
+            , <a href="https://github.com/reactjs/rfcs/pull/107">JSX RFC</a>,{" "}
             <a href="https://github.com/babel/babel/pull/11154">Initial PR</a>,{" "}
-            <a href="https://babeljs.io/docs/en/babel-preset-react">docs</a>)
+            <a href="https://babeljs.io/docs/en/babel-preset-react">
+              preset docs
+            </a>
+            )
           </h3>
           {/* <label>
             <input
